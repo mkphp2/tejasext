@@ -2,7 +2,7 @@
    namespace HelloWorld;
    class SayHello {
       public static function world() {
-         return 'Hello Tejas your Extension is sucess!';
+         return 'Hello Tejas your Extension is sucess!2';
       }
    }
 ?>
