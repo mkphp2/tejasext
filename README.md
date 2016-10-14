@@ -22,9 +22,10 @@ For Windows
 php composer.phar require --prefer-dist tejasext/hello-world "*"
 ```
 or add
-
 ```
 "tejasext/hello-world": "*"
+Run Command
+sudo composer.phar update
 ```
 
 to the require section of your `composer.json` file.
