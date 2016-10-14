@@ -11,10 +11,16 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run
 
+For linux
+```
+sudo composer require --prefer-dist tejasext/hello-world "*"
+OR
+sudo composer.phar require --prefer-dist tejasext/hello-world "*"
+```
+For Windows
 ```
 php composer.phar require --prefer-dist tejasext/hello-world "*"
 ```
-
 or add
 
 ```
@@ -30,8 +36,6 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php 
-<?php
-use tejasext\HelloWorld;
-?>
+
 <?= HelloWorld\SayHello::world();  ?>
 ```
