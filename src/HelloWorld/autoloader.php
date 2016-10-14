@@ -1,4 +1,5 @@
 <?php
+/**** Auto loader file
 
 spl_autoload_register(function ($class) {
     if (strpos($class, 'SayHello\\') !== 0) {
