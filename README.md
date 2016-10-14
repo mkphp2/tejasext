@@ -2,7 +2,7 @@
 Sample extenstion for Yii2
 Hello World
 ===========
-Just A Hello World Yii2 Widget  
+Just A Hello World Yii2 Extension  
 
 Installation
 ------------
